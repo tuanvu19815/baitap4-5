@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <!-- navbar -->  
+ <nav class="navbar navbar-expand-lg fixed-top ">  
+    <a class="navbar-brand" href="#">Home</a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
+    <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse " id="navbarSupportedContent">     <ul class="navbar-nav mr-4">
+    <li class="nav-item">
+        <a class="nav-link" data-value="about" href="#">About</a>        </li>  
+   <li class="nav-item">
+       <a class="nav-link " data-value="portfolio"href="#">Portfolio</a>    
+    </li>
+    <li class="nav-item"> 
+       <a class="nav-link " data-value="blog" href="#">Blog</a>         </li>   
+   <li class="nav-item">  
+      <a class="nav-link " data-value="team" href="#">         Team</a>       </li>  
+   <li class="nav-item"> 
+    <a class="nav-link " data-value="contact" href="#">Contact</a>       </li> 
+   </ul> 
+   </div>
+</nav>
+<header class="header">
+   <div class="overlay"></div>
+    <div class="container">
+    </div>
+</header>
+<div class="description ">
+    <h1>    Hello ,Welcome To My official Website
+     <p>    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ </p>   
+  <button class="btn btn-outline-secondary btn-lg">See more</button>   </h1>  
+ </div>
+ <div id="me">
+     <h2>About Me</h2>
+</div>
+ 
+ <div class="row about" id="about">
+    <div class="col-lg-4 col-md-4 col-sm-12">
+     <img src="data:image/jpeg;base64,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" class="img-fluid">
+     <span class="text-justify">TuanVuhihi</span>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-12 desc">
+     <h3>Mr.TuanVu</h3>
+     <p>
+        ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+     </p>
+    </div>
+   </div>
+
+<!-- portfolio -->
+<div class="portfolio" id="portfolio">
+    <h1 class="text-center">Portfolio</h1>
+<div class="container">
+ <div class="row">
+  <div class="col-lg-4 col-md-4 col-sm-12">
+   <img src="images/portfolio/port13.png" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-12">
+   <img src="images/portfolio/port1.png" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-12">
+   <img src="images/portfolio/port6.png" class="img-fluid">
+  </div>
+     
+<div class="col-lg-4 col-md-4 col-sm-12">
+   <img src="images/portfolio/port3.png" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-12">
+   <img src="images/portfolio/port11.png" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-12">
+   <img src="images/portfolio/electric.png" class="img-fluid">
+  </div>
+     
+<div class="col-lg-4 col-md-4 col-sm-12">
+   <img src="images/portfolio/Classic.jpg" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-12">
+   <img src="images/portfolio/port1.png" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-12">
+   <img src="images/portfolio/port8.png" class="img-fluid">
+  </div>
+ </div>
+</div>
+</div>
+<!-- Posts section -->
+<div class="blog" id="blog">
+    <div class="container">
+    <h1 class="text-center">Blog</h1>
+     <div class="row">
+      <div class="col-md-4 col-lg-4 col-sm-12">
+       <div class="card">
+        <div class="card-img">
+         <img src="images/posts/polit.jpg" class="img-fluid">
+        </div>
+        
+        <div class="card-body">
+        <h4 class="card-title">Post Title</h4>
+         <p class="card-text">
+          
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+         </p>
+        </div>
+        <div class="card-footer">
+         <a href="" class="card-link">Read more</a>
+        </div>
+       </div>
+      </div>
+      <div class="col-md-4 col-lg-4 col-sm-12">
+       <div class="card">
+        <div class="card-img">
+         <img src="images/posts/images.jpg" class="img-fluid">
+        </div>
+        
+        <div class="card-body">
+           <h4 class="card-title">Post Title</h4>
+         <p class="card-text">
+          
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+         </p>
+        </div>
+        <div class="card-footer">
+         <a href="" class="card-link">Read more</a>
+        </div>
+       </div>
+      </div>
+      <div class="col-md-4 col-lg-4 col-sm-12">
+       <div class="card">
+        <div class="card-img">
+         <img src="images/posts/imag2.jpg" class="img-fluid">
+        </div>
+        
+        <div class="card-body">
+        <h4 class="card-title">Post Title</h4>
+         <p class="card-text">
+          
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+         </p>
+        </div>
+        <div class="card-footer">
+         <a href="" class="card-link">Read more</a>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <!-- Team section -->
+<div class="team" id="team">
+    <div class="container">
+       <h1 class="text-center">Our Team</h1>
+     <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-12 item">
+       <img src="images/team-2.jpg" class="img-fluid" alt="team">
+       <div class="des">
+         Sara
+        </div>
+       <span class="text-muted">Manager</span>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-12 item">
+       <img src="images/team-3.jpg" class="img-fluid" alt="team">
+       <div class="des">
+          Chris
+        </div>
+       <span class="text-muted">S.enginner</span>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-12 item">
+       <img src="images/team-2.jpg" class="img-fluid" alt="team">
+       <div class="des">
+         Layla 
+        </div>
+       <span class="text-muted">Front End Developer</span>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-12 item">
+       <img src="images/team-3.jpg" class="img-fluid" alt="team">
+        <div class="des">
+         J.Jirard
+        </div>
+       <span class="text-muted">Team Manger</span>
+      </div>
+     </div>
+    </div>
+   </div>
+<!-- Contact form -->
+<div class="contact-form" id="contact">
+    <div class="container">
+     <form>
+      <div class="row">
+       <div class="col-lg-4 col-md-4 col-sm-12">
+         <h1>Get in Touch</h1> 
+       </div>
+       <div class="col-lg-8 col-md-8 col-sm-12 right">
+          <div class="form-group">
+            <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com" name="email">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control form-control-lg">
+             
+            </textarea>
+          </div>
+          <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+       </div>
+      </div>
+     </form>
+    </div>
+   </div>
+  
+      <div class="about" id="about"></div>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src='main.js'></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</body>
+</html>
